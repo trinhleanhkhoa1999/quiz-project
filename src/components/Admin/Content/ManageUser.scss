@@ -1,0 +1,50 @@
+//root element
+.manage-user-container {
+  padding: 10px;
+  .title {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .users-content {
+    .btn-add-new {
+      button {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+
+        margin: 15px 0;
+      }
+    }
+  }
+}
+//modall khong nam trong root element
+.modal-add-user {
+  .label-upload {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #ccc;
+    width: fit-content;
+    cursor: pointer;
+    &:hover {
+      background-color: #dcdcdc;
+    }
+  }
+  .img-preview {
+    border: 1px dashed #ccc;
+    border-radius: 5px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ccc;
+    img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  }
+}
